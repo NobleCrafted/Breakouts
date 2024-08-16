@@ -1,0 +1,265 @@
+(pcb C:\Users\brookstg\Documents\WorkingFolder\Breadboard Boards\ESP32-C6\freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "8.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  233273 -74298.2  201067 -74298.2  201067 -37072.8  233273 -37072.8
+            233273 -74298.2)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 200 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical
+      (place J2 205740.000000 -40640.000000 back 0.000000 (PN Conn_01x13))
+      (place J1 228600.000000 -40640.000000 back 0.000000 (PN Conn_01x13))
+    )
+    (component "Espressif:ESP32-C6-WROOM-1"
+      (place U1 217171.000000 -54971.000000 front 0.000000 (PN "ESP32-C6-WROOM-1"))
+    )
+  )
+  (library
+    (image Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical
+      (outline (path signal 100  1270 -31750  -1270 -31750))
+      (outline (path signal 100  1270 1270  1270 -31750))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -31750  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 50  1800 -32250  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -32250  1800 -32250))
+      (outline (path signal 50  -1800 1800  -1800 -32250))
+      (outline (path signal 120  1330 -1270  1330 -31810))
+      (outline (path signal 120  -1330 -31810  1330 -31810))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -31810))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image "Espressif:ESP32-C6-WROOM-1"
+      (outline (path signal 120  -9000 15750  -9000 9000))
+      (outline (path signal 120  -9000 15750  9000 15750))
+      (outline (path signal 120  -9000 -9000  -9000 -9750))
+      (outline (path signal 120  -9000 -9750  -8000 -9750))
+      (outline (path signal 120  9000 15750  9000 9000))
+      (outline (path signal 120  9000 9750  -9000 9750))
+      (outline (path signal 120  9000 -9000  9000 -9750))
+      (outline (path signal 120  9000 -9750  8000 -9750))
+      (outline (path signal 120  -9000 15750  9000 15750))
+      (outline (path signal 120  -9000 9750  9000 9750))
+      (outline (path signal 120  -9000 -9750  -9000 15750))
+      (outline (path signal 120  9000 15750  9000 -9750))
+      (outline (path signal 120  9000 -9750  -9000 -9750))
+      (outline (path signal 120  -9800 16050  -9800 -10550))
+      (outline (path signal 120  -9800 -10550  9800 -10550))
+      (outline (path signal 120  9800 16050  -9800 16050))
+      (outline (path signal 120  9800 16050  9800 -10550))
+      (pin Rect[T]Pad_1500x900_um 1 -8750 8260)
+      (pin Rect[T]Pad_1500x900_um 2 -8750 6990)
+      (pin Rect[T]Pad_1500x900_um 3 -8750 5720)
+      (pin Rect[T]Pad_1500x900_um 4 -8750 4450)
+      (pin Rect[T]Pad_1500x900_um 5 -8750 3180)
+      (pin Rect[T]Pad_1500x900_um 6 -8750 1910)
+      (pin Rect[T]Pad_1500x900_um 7 -8750 640)
+      (pin Rect[T]Pad_1500x900_um 8 -8750 -630)
+      (pin Rect[T]Pad_1500x900_um 9 -8750 -1900)
+      (pin Rect[T]Pad_1500x900_um 10 -8750 -3170)
+      (pin Rect[T]Pad_1500x900_um 11 -8750 -4440)
+      (pin Rect[T]Pad_1500x900_um 12 -8750 -5710)
+      (pin Rect[T]Pad_1500x900_um 13 -8750 -6980)
+      (pin Rect[T]Pad_1500x900_um 14 -8750 -8250)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 15 8750 -8250)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 16 8750 -6980)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 17 8750 -5710)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 18 8750 -4440)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 19 8750 -3170)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 20 8750 -1900)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 21 8750 -630)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 22 8750 640)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 23 8750 1910)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 24 8750 3180)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 25 8750 4450)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 26 8750 5720)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 27 8750 6990)
+      (pin Rect[T]Pad_1500x900_um (rotate 180) 28 8750 8260)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29 -2755 3790)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@1 -2755 2540)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@2 -2755 1290)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@3 -1505 3790)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@4 -1505 2540)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@5 -1505 1290)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@6 -255 3790)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@7 -255 2540)
+      (pin Rect[T]Pad_800x800_um (rotate 180) 29@8 -255 1290)
+      (keepout "" (polygon F.Cu 0  9000 9750  -9000 9750  -9000 15750  9000 15750  9000 9750))
+      (keepout "" (polygon B.Cu 0  9000 9750  -9000 9750  -9000 15750  9000 15750  9000 9750))
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x800_um
+      (shape (rect F.Cu -400 -400 400 400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x900_um
+      (shape (rect F.Cu -750 -450 750 450))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net +3V3
+      (pins J1-1 U1-2 U1-3)
+    )
+    (net GND
+      (pins J2-1 U1-1 U1-28 U1-29 U1-29@1 U1-29@2 U1-29@3 U1-29@4 U1-29@5 U1-29@6
+        U1-29@7 U1-29@8)
+    )
+    (net "unconnected-(U1-NC-Pad22)"
+      (pins U1-22)
+    )
+    (net 0
+      (pins J1-2 U1-8)
+    )
+    (net 10
+      (pins J1-12 U1-11)
+    )
+    (net 8
+      (pins J1-10 U1-10)
+    )
+    (net 11
+      (pins J1-13 U1-12)
+    )
+    (net 1
+      (pins J1-3 U1-9)
+    )
+    (net 3
+      (pins J1-5 U1-26)
+    )
+    (net 9
+      (pins J1-11 U1-15)
+    )
+    (net 6
+      (pins J1-8 U1-6)
+    )
+    (net 5
+      (pins J1-7 U1-5)
+    )
+    (net 7
+      (pins J1-9 U1-7)
+    )
+    (net 2
+      (pins J1-4 U1-27)
+    )
+    (net 4
+      (pins J1-6 U1-4)
+    )
+    (net 20
+      (pins J2-10 U1-18)
+    )
+    (net "USB_D-"
+      (pins J2-3 U1-13)
+    )
+    (net 22
+      (pins J2-12 U1-20)
+    )
+    (net 19
+      (pins J2-9 U1-17)
+    )
+    (net "unconnected-(J2-Pin_4-Pad4)"
+      (pins J2-4)
+    )
+    (net USB_D+
+      (pins J2-2 U1-14)
+    )
+    (net 16
+      (pins J2-6 U1-25)
+    )
+    (net 21
+      (pins J2-11 U1-19)
+    )
+    (net 15
+      (pins J2-5 U1-23)
+    )
+    (net 18
+      (pins J2-8 U1-16)
+    )
+    (net 17
+      (pins J2-7 U1-24)
+    )
+    (net 23
+      (pins J2-13 U1-21)
+    )
+    (class kicad_default "" +3V3 0 1 10 11 15 16 17 18 19 2 20 21 22 23 3
+      4 5 6 7 8 9 GND USB_D+ "USB_D-" "unconnected-(J2-Pin_4-Pad4)" "unconnected-(U1-NC-Pad22)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 200  208421 -49251  208421 -47981)(net +3V3)(type route))
+    (wire (path F.Cu 200  228219 -40640  228600 -40640)(net +3V3)(type route))
+    (wire (path F.Cu 200  226822 -42037  228219 -40640)(net +3V3)(type route))
+    (wire (path F.Cu 200  226822 -44831  226822 -42037)(net +3V3)(type route))
+    (wire (path F.Cu 200  209677 -46101  210457 -45321  226332 -45321)(net +3V3)(type route))
+    (wire (path F.Cu 200  209371 -47981  209677 -47675  209677 -46101)(net +3V3)(type route))
+    (wire (path F.Cu 200  208421 -47981  209371 -47981)(net +3V3)(type route))
+    (wire (path F.Cu 200  226332 -45321  226822 -44831)(net +3V3)(type route))
+    (wire (path F.Cu 200  207010 -40640  205740 -40640)(net GND)(type route))
+    (wire (path F.Cu 200  207772 -41402  207010 -40640)(net GND)(type route))
+    (wire (path F.Cu 200  207772 -46062  207772 -41402)(net GND)(type route))
+    (wire (path F.Cu 200  208421 -46711  207772 -46062)(net GND)(type route))
+  )
+)
